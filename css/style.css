@@ -3,6 +3,10 @@ body {
   font-weight: 300;
 }
 
+.main .logo {
+  margin-top: 60px;
+}
+
 .catchphrase {
   font-size: 45px;
 }
@@ -19,4 +23,12 @@ body {
 
 .socials a:hover {
   color: #ffffff;
+}
+
+.email-form {
+  display: flex;
+}
+
+.email-form input {
+  margin-right: 20px;
 }
