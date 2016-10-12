@@ -15,6 +15,37 @@ body {
   font-size: 45px;
 }
 
+.background-image {
+  position: fixed;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background-position: center center;
+  background-size: cover;
+  filter: blur(3px);
+}
+
+
+@media (max-width: 768px) {
+  .main .logo img {
+    height: 150px;
+  }
+
+  .catchphrase {
+    font-size: 35px;
+  }
+
+
+  .email-form {
+    flex-direction: column;
+  }
+  .email-form input {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
 .socials {
   margin: 20px 0;
 }
