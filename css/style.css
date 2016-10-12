@@ -1,6 +1,8 @@
 body {
   font-family: "Josefin Sans", serif;
   font-weight: 300;
+  color: white;
+  font-size: 14px;
 }
 
 .main .logo {
@@ -11,8 +13,22 @@ body {
   height: 40vh;
 }
 
+.description {
+  margin: 50px 0;
+  line-height: 1.45;
+  font-size: 22px;
+}
+
 .catchphrase {
   font-size: 45px;
+}
+
+.hidden {
+  display: none;
+}
+
+.thanks {
+  font-size: 20px;
 }
 
 .fullscreen {
@@ -80,5 +96,5 @@ body {
 }
 
 #map {
-    height: 350px;
+  height: 350px;
 }
