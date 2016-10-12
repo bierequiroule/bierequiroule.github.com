@@ -7,12 +7,16 @@ body {
   margin-top: 60px;
 }
 
+.main .logo img {
+  height: 40vh;
+}
+
 .catchphrase {
   font-size: 45px;
 }
 
 .socials {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 .socials a {
