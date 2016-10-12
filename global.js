@@ -1,7 +1,9 @@
 $(function() {
   $('form').submit(function(event) {
-    mixpanel.register({
-      "email": $('#email').val(),
+    mixpanel.identify();
+    mixpanel.people.set({
+      "$email": $('#email').val(),
+      "$last_login": new Date()
     });
     event.preventDefault();
   });
