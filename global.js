@@ -8,14 +8,4 @@ $(function() {
     });
     event.preventDefault();
   });
-
-  var mymap = L.map('map',{
-    center: [43.6039,1.3355],
-    zoom: 12,
-    scrollWheelZoom: false,
-    doubleClickZoom: false,
-    dragging: false
-
-  });
-
 });
