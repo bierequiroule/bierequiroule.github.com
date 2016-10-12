@@ -15,6 +15,12 @@ body {
   font-size: 45px;
 }
 
+.fullscreen {
+  height: 100vh;
+  background-color: #0076AD;
+  color: white;
+}
+
 .background-image {
   position: fixed;
   top: -5px;
@@ -24,6 +30,11 @@ body {
   background-position: center center;
   background-size: cover;
   filter: blur(3px);
+  z-index: -1;
+}
+
+.cover.black {
+  z-index: -1;
 }
 
 
