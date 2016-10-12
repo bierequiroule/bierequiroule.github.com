@@ -1,4 +1,5 @@
 $(function() {
+  mixpanel.track('connected', {});
   $('form').submit(function(event) {
     mixpanel.identify();
     mixpanel.people.set({
